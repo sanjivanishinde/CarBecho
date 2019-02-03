@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @bid.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @bid.email %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @bid.amount %>
+</p>
+
+<p>
+  <strong>Phone number:</strong>
+  <%= @bid.phone_number %>
+</p>
+
+<%= link_to 'Edit', edit_car_bid_path(@car, @bid) %> |
+<%= link_to 'Back', car_bids_path %>
