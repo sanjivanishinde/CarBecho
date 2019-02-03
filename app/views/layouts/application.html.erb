@@ -10,6 +10,14 @@
   </head>
 
   <body>
+  <ul class="nav">
+    <li class="nav-item">
+      <%= link_to "Home", cars_path, class:"nav-link active"%>
+    </li>
+    <li class="nav-item">
+      <%= link_to "Cars", cars_path, class:"nav-link active"%>
+    </li>
+  </ul>
   <div class="container">
     <%= yield %>
   </div>

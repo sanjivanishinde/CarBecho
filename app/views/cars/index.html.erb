@@ -25,6 +25,7 @@
         <td><%= car.seller %></td>
         <td><%= car.brand %></td>
         <td><%= link_to 'Show', car %></td>
+        <td><%= link_to 'Bids', car_bids_path(car)%></td>
         <td><%= link_to 'Edit', edit_car_path(car) %></td>
         <td><%= link_to 'Destroy', car, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
